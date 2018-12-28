@@ -3,9 +3,10 @@
 ## Artificial Intelligence vs Machine Learning vs Deep Learning
 
 AI: Incorporating human intelligence to machines.
-ML: Subset of AI. Empowering computer systems with the ability to “learn”.
-DL: Subset of ML. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
 
+ML: Subset of AI. Empowering computer systems with the ability to “learn”.
+
+DL: Subset of ML. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
 
 ### ML Ecosystem:
 1. Supervised Learning: Task driven. classification/Regression. This approach works if we have a data set that includes the target values (the values we wish to predict). We try to learn a function that correctly predict the target values from the other features,. eg. Weather forecast, Market forecast, Population growth prediction, Diagnostics, Image procesisng etc.
