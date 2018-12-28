@@ -10,7 +10,7 @@ DL: Subset of ML. DL algorithms are roughly inspired by the information processi
 
 ### ML Ecosystem:
 1. **Supervised Learning**: Task driven. classification/Regression. This approach works if we have a data set that includes the target values (the values we wish to predict). We try to learn a function that correctly predict the target values from the other features,. eg. Weather forecast, Market forecast, Population growth prediction, Diagnostics, Image procesisng etc.
-2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. Typical examples: Clustering, Association (eg. people who buy A, also buy B), density estimation, noise reduction.
+2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. Classification: Clustering (eg. density estimation, noise reduction) and Association (eg. people who buy A, also buy B).
 3. **Reinforced Learning**: is a setting where we have a sequential decision problem. Making a decision now influences what decisions we can make in the future. eg. Realtime decisions, Robot navigation, Self driving cars, Game AI.
 
 ### Supervised ML Models:
