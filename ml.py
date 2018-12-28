@@ -73,7 +73,7 @@ print(games.corr()["average_rating"])
 #so this likely indicates that games created later score higher in the ratings. 
 #Maybe reviewers were not as nice in the early days of BoardGameGeek, or older games were of lower quality.
 
-#Picking predictor columns:::
+#Picking predictor columns (also known as "features"):
 #We'll want to remove certain columns that aren't numeric. 
 #We'll also want to remove columns that can only be computed if you already know the average rating. 
 #Including these columns will destroy the purpose of the classifier, which is to predict the rating without
@@ -104,10 +104,11 @@ print(test.shape)
 #Fitting a linear regression:::
 #Linear regression is a powerful and commonly used machine learning algorithm. 
 #It predicts the target variable using linear combinations of the predictor variables. 
-#Let's say we have a 2 values, 3, and 4. A linear combination would be 3 * .5 + 4 * .5. A linear combination involves multiplying each number by a constant, and adding the results.
+#Let's say we have a 2 values: x and y. A linear combination would be ax+by.
+#A linear combination involves multiplying each number by a constant, and adding the results.
 
 #Linear regression works well only when the predictor variables and the target variable are linearly correlated.
-# For other scnearios, some other algorithm like Random forest can be used
+# For other scnearios, some other algorithm like Random forest can be used.
 
 # Initialize the model class.
 model = LinearRegression()
