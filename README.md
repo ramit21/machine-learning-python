@@ -67,7 +67,7 @@ ml.py script does the following things on this data:
 
 
 ### TODO
-Once you have tested your model, and want to use it going furhter, you can use pickle library that stores the model (just like serialisation in Java). TensorFlow is another mechanism that can be used to store the model.
+Once you have tested your model, and want to use it going further, you can use pickle library that stores the model (just like serialisation in Java). TensorFlow is another mechanism that can be used to store the model.
 
 ### References
 https://www.dataquest.io/blog/machine-learning-python/  
