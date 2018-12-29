@@ -72,7 +72,6 @@ ml.py script does the following things on this data:
 Once you have tested your model, and want to use it going further, you can use pickle library that stores the model (just like serialisation in Java). TensorFlow is another mechanism that can be used to store the model.
 
 ### References
-K-Means explained: https://www.datascience.com/blog/k-means-clustering
 https://www.dataquest.io/blog/machine-learning-python/  
 https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e  
 https://www.forbes.com/sites/bernardmarr/2016/12/08/what-is-the-difference-between-deep-learning-machine-learning-and-ai/#13473ee326cf
