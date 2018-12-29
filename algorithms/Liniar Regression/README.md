@@ -13,6 +13,6 @@ their coefficients (a and b respectively).
 
 A negative coefficient would mean inverse relation with the feature.
 
-
+Linear regression algorithm works by minimizing the least squares error of the model to the data.
 
 
