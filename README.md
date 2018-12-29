@@ -10,7 +10,9 @@ DL: Subset of ML. DL algorithms are roughly inspired by the information processi
 
 ### ML Ecosystem:
 1. **Supervised Learning**: Task driven. classification/Regression. This approach works if we have a data set that includes the target values (the values we wish to predict). We try to learn a function that correctly predict the target values from the other features,. eg. Weather forecast, Market forecast, Population growth prediction, Diagnostics, Image procesisng etc.
-2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. Classification: Clustering (eg. density estimation, noise reduction) and Association (eg. people who buy A, also buy B).
+2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. Classification: 
+2.1. Clustering (eg. density estimation, shopping history categorisation, noise reduction) and 
+2.2. Association (eg. people who buy A, also buy B).
 3. **Reinforced Learning**: is a setting where we have a sequential decision problem. Making a decision now influences what decisions we can make in the future. eg. Realtime decisions, Robot navigation, Self driving cars, Game AI.
 
 ### Supervised ML Models:
@@ -70,6 +72,7 @@ ml.py script does the following things on this data:
 Once you have tested your model, and want to use it going further, you can use pickle library that stores the model (just like serialisation in Java). TensorFlow is another mechanism that can be used to store the model.
 
 ### References
+K-Means explained: https://www.datascience.com/blog/k-means-clustering
 https://www.dataquest.io/blog/machine-learning-python/  
 https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e  
 https://www.forbes.com/sites/bernardmarr/2016/12/08/what-is-the-difference-between-deep-learning-machine-learning-and-ai/#13473ee326cf
