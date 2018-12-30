@@ -45,6 +45,11 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 Pickle library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use.
 
+sklearn.metrics provides confusion_matrix and classification_report to evaluate the model.
+
+sklearn.datasets provides sample data sets to try various analysis and ML algorithms.
+
+MatplotLib and Seaborn (built on top of Matplotlib) are used for plotting various graphsfor analyzing the data.
 
 
 ### References
