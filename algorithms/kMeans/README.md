@@ -10,6 +10,9 @@ K-means clustering is a type of unsupervised learning, which is used when you ha
 
 2. Labels for the training data (each data point is assigned to a single cluster)
 
+
+Optimal value of k can be found using the elbow method: plot the Avg. Within cluster distances to centroids against the chosen k values(for some range say 1-40), and choose the k after which the variation in the error stabilizes.
+
 Example use cases: Segment by purchase history, Segment by activities on application/website/platform, Identify groups in health monitoring etc.
 
 ## References
