@@ -1,9 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar  3 20:24:16 2018
+The dataset (games.csv) is from BoardGameGeek(https://www.boardgamegeek.com/), and contains data on 80000 board games.  
 
-@author: ramit21
+The dataset contains several data points about each board game. Here's a list of the interesting ones:  
+* name -- name of the board game.  
+* playingtime -- the playing time (given by the manufacturer).  
+* minplaytime -- the minimum playing time (given by the manufacturer).  
+* maxplaytime -- the maximum playing time (given by the manufacturer).  
+* minage -- the minimum recommended age to play.  
+* users_rated -- the number of users who rated the game.  
+* average_rating -- the average rating given to the game by users. (0-10)  
+* total_weights -- Number of weights given by users. Weight is a subjective measure that is made up by BoardGameGeek. It's how "deep" or involved a game is.  
+
+ml.py script does the following things on this data:  
+* Read the data using Pandas.  
+* Plot our target variables to identify noise and accordingly clean our data.  
+* Find correlation of other columns wrt the target column.  
+* Pick predictor columns (FEATURES) from above correlation.  
+* Split data into train and test set.  
+* Predict target value using a regression algorithm.  
+* And finally compute the error between actual values and the predicted values.  
+
 """
 import pandas
 import matplotlib.pyplot as plt
