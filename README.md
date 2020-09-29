@@ -31,6 +31,8 @@ Example: I have an unknown fruit that is yellow in color, 5.5 inches long, diame
 6. Paramater tuning
 7. Prediction
 
+See ml.py example covering above steps in details.
+
 ### Sampling 
 It is the process used in statistical analysis in which a predetermined number of observations are taken from a larger population. The methodology used to sample from a larger population depends on the type of analysis being performed but may include simple random sampling or systematic sampling.
 
@@ -49,10 +51,15 @@ sklearn.metrics provides confusion_matrix and classification_report to evaluate 
 
 sklearn.datasets provides sample data sets to try various analysis and ML algorithms.
 
-MatplotLib and Seaborn (built on top of Matplotlib) are used for plotting various graphsfor analyzing the data.
+MatplotLib and Seaborn (built on top of Matplotlib)are used for plotting various graphsfor analyzing the data.
 
+Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. Jupyter shortcuts:
+
+1. ctrl+Enter: runs teh set of commands
+2. alt+enterL runs teh set of commands, and inserts a new box below for the next set of commands.
 
 ### References
+https://www.geeksforgeeks.org/machine-learning/
 https://www.dataquest.io/blog/machine-learning-python/  
 https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e  
 https://www.forbes.com/sites/bernardmarr/2016/12/08/what-is-the-difference-between-deep-learning-machine-learning-and-ai/#13473ee326cf
