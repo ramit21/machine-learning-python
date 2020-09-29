@@ -45,18 +45,17 @@ Why do sampling?
 
 Python has an amazing ecosystem of libraries that make machine learning easy to get started with: Scikit-learn, Pandas, and Matplotlib libraries.
 
-Pickle library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use.
+**Pickle** library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use.
 
-sklearn.metrics provides confusion_matrix and classification_report to evaluate the model.
+**sklearn.metrics** provides confusion_matrix and classification_report to evaluate the model.
 
-sklearn.datasets provides sample data sets to try various analysis and ML algorithms.
+**sklearn.datasets** provides sample data sets to try various analysis and ML algorithms.
 
-MatplotLib and Seaborn (built on top of Matplotlib)are used for plotting various graphsfor analyzing the data.
+**MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create graphs with more aesthetic appeal.
 
 Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. Jupyter shortcuts:
-
-1. ctrl+Enter: runs teh set of commands
-2. alt+enterL runs teh set of commands, and inserts a new box below for the next set of commands.
+1. ctrl+Enter: runs the set of commands
+2. alt+enterL runs the set of commands, and inserts a new box below for the next set of commands.
 
 ### References
 https://www.geeksforgeeks.org/machine-learning/
