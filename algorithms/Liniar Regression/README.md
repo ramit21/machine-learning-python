@@ -13,6 +13,8 @@ their coefficients (a and b respectively).
 
 A negative coefficient would mean inverse relation with the feature.
 
-Linear regression algorithm works by minimizing the least squares error of the model to the data.
+Linear regression algorithm works by minimizing the least squares error to fit the data into the model.
 
+------------------------
 
+See App vs website eg. where we plot the avg spending (target value) against all other features, and note the coeffiecients to decide which features contribute more to the earnings (target value)

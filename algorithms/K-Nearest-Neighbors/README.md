@@ -14,6 +14,10 @@ Optimal value of k can be found using the elbow method: plot the error rates aga
 
 Example use case: Reccomending products (similar products or frequently brought together) on eComm website, videos on Netflix etc.
 
+------------
+See the example on how we plot the error rates for different values of k (elbow method) and choose the optimal value of k for our model.
+
+
 ## References
 https://www.youtube.com/watch?v=UqYde-LULfs
 https://www.youtube.com/watch?v=6kZ-OPLNcgE

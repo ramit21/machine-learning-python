@@ -42,3 +42,7 @@ Linear regression is usually solved by minimizing the least squares error of the
 Logistic regression is just the opposite. Using the logistic loss function causes large errors to be penalized to an asymptotically constant.
 
 Consider linear regression on categorical {0, 1} outcomes to see why this is a problem. If your model predicts the outcome is 38, when the truth is 1, you've lost nothing. Linear regression would try to reduce that 38, logistic wouldn't (as much)
+
+-------------
+
+Notice in the Titanic example, how we create heatmap, and drop the column with missing values. Also, how using box blot (which shows mean, and the box containing most of the values, with bars indicating the outliers) to find the mean age for the various pclasses, and fill the missing values. Also see how we convert the categorial striing values of Sex and Embarked into numbers so that these can be used with ML algorithms, and drop Name and Ticket as strings cannot be used in ML algos.

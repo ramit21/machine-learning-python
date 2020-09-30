@@ -21,7 +21,7 @@ Ans.
 3. interpretability (yes, tree based models have feature importance, but it's only a proxy, weights in linear model are better)
 4. need less data to get good results
 5. have strong online learning implementations (Vowpal Wabbit), which is crucial to work with giant datasets with a lot of features (e.g. texts)
-6. RAndom Forest has more probability of overitting.
+6. Random Forest has more probability of overitting.
 
 ## Decision Tree important terms
 **Entropy** : It's the measure of randomness or unpredictability in the dataset.
