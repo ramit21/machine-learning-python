@@ -45,7 +45,7 @@ Why do sampling?
 
 Python has an amazing ecosystem of libraries that make machine learning easy to get started with: Scikit-learn, Pandas, and Matplotlib libraries.
 
-**Pickle** library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use. For eg, see algorithms->Random forest -> Iris problem.
+**Pickle** library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use. For eg, see algorithms->Random forest -> Iris problem. You can then expose your trained model via REST calls which the client can invoke to predict values using the model.
 
 **sklearn.metrics** provides confusion_matrix and classification_report to evaluate the model.
 
