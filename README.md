@@ -57,7 +57,7 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. Jupyter shortcuts:
 1. ctrl+Enter: runs the set of commands
-2. alt+enterL runs the set of commands, and inserts a new box below for the next set of commands.
+2. alt+Enter: runs the set of commands, and inserts a new box below for the next set of commands.
 
 ### References
 https://www.geeksforgeeks.org/machine-learning/
