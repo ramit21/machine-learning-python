@@ -1,6 +1,6 @@
 # Data
 
-Machine learning is mainly about understanding the data. One has to spend most time to understand and clean the data before applying machine learning algorithms.
+Machine learning is mainly about understanding the data. One has to spend most of the time to understand and clean the data than applying machine learning algorithms on top of it.
 
 ## Types of data
 
