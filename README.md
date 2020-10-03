@@ -1,5 +1,11 @@
 # machine-learning-python
 
+Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. 
+
+Jupyter shortcuts:
+1. ctrl+Enter: runs the set of commands
+2. alt+Enter: runs the set of commands, and inserts a new box below for the next set of commands.
+
 ## Artificial Intelligence vs Machine Learning vs Deep Learning
 
 AI: Incorporating human intelligence to machines.
@@ -9,10 +15,15 @@ ML: Subset of AI. Empowering computer systems with the ability to “learn”.
 DL: Subset of ML. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
 
 ### ML Ecosystem:
-1. **Supervised Learning**: Task driven. classification/Regression. This approach works if we have a data set that includes the target values (the values we wish to predict). We try to learn a function that correctly predict the target values from the other features,. eg. Weather forecast, Market forecast, Population growth prediction, Diagnostics, Image procesisng etc.
+
+1. **Supervised Learning**: Task driven. classification/Regression. This approach works if we have a data set that includes the target values (the values we wish to predict). We try to learn a function that correctly predict the target values from the other features. We split the data into train and test data. Predicted values are then compared with test data to find error.
+
+eg. Weather forecast, Market forecast, Population growth prediction, Diagnostics, Image procesisng etc. 
+
 2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. Classification: 
 2.1. Clustering (eg. density estimation, shopping history categorisation, noise reduction) and 
 2.2. Association (eg. people who buy A, also buy B).
+
 3. **Reinforced Learning**: is a setting where we have a sequential decision problem. Making a decision now influences what decisions we can make in the future. eg. Realtime decisions, Robot navigation, Self driving cars, Game AI.
 
 ### Supervised ML Models:
@@ -24,7 +35,7 @@ Example: I have an unknown fruit that is yellow in color, 5.5 inches long, diame
 ### 7 Steps of Machine learning
 
 1. Gather data
-2. Data preperation (sampling, fill missing values, drop columns, select relavant features - use PCA if need be, Convert categorial string data into numeric data, find and remove outliers)
+2. **Data preperation** (sampling, fill missing values, drop columns, select relavant features - use PCA to reduce feature dimensionality if the need be, scaling, convert categorial string data into numeric data, find and remove outliers)
 3. Choose a model
 4. Train
 5. Evaluation
@@ -45,11 +56,10 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 **nltk** for natural language processing.
 
-**MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create matplotlib graphs with more aesthetic appeal, and also provides some more graph types. (See data folder for crash course on both)
+**MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create matplotlib graphs with more aesthetic appeal, and also provides some more graph types. (See data folder for crash course python notebooks on both)
 
-Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. Jupyter shortcuts:
-1. ctrl+Enter: runs the set of commands
-2. alt+Enter: runs the set of commands, and inserts a new box below for the next set of commands.
+**PCA**(Principal Component Analysis): If you have multiple features in your model, then visualising all of them becomes difficult. Human brain can understand upto 3 dimensions and when plotting graphs, 2-D is the best option. Hence use PCA to reduce the features before fitting into our model. PCA itself works on unsupervised ML principles when making sense of the features before reducing them.
+
 
 ### References
 https://sundog-education.com/machine-learning/

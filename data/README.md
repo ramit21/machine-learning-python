@@ -56,5 +56,7 @@ Why do sampling?
 
 -----
 
+**K-fold Cross Validation**: Supervised learning technique, where you split data into 1 test set, and k-1 train sets. You apply your model on the k-1 train tests and the compare the result of each with the 1 test set.
 
+-----
 

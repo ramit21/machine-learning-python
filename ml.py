@@ -73,7 +73,7 @@ labels = kmeans_model.labels_
 
 # Create a PCA model with 2 columns
 pca_2 = PCA(2)
-# Fit the PCA model on the numeric columns from earlier.
+# Fit the PCA model on the numeric columns from earlier. Reducing the dimensionality of features.
 plot_columns = pca_2.fit_transform(good_columns)
 # Make a scatter plot of each game, shaded according to cluster assignment.
 plt.scatter(x=plot_columns[:,0], y=plot_columns[:,1], c=labels)
