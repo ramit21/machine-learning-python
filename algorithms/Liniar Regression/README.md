@@ -15,6 +15,10 @@ A negative coefficient would mean inverse relation with the feature.
 
 Linear regression algorithm works by minimizing the least squares error to fit the data into the model.
 
+r-squared is used to identify how well liniar regression has worked. Ranges from 0-1. 0 is bad, means none of variance has been captured, whereas 1 means all of the variance has been captured.
+
+You can also use polynomial regression, but higher degree can lead to overfitting.
+
 ------------------------
 
 See App vs website eg. where we plot the avg spending (target value) against all other features, and note the coeffiecients to decide which features contribute more to the earnings (target value)

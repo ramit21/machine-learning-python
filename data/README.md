@@ -24,3 +24,37 @@ Machine learning is mainly about understanding the data. One has to spend most o
 
 ------
 
+**Probability Distribution Function:** Probability of one data on a continious data is very very small. Hence we use probability distribution function for ranges of data.
+
+**Probability Mass Function:** Probabilities of discrete data.
+
+------
+
+**Moments:** Quantitative measures about the shape of probability density function.
+
+1st Moment = Mean
+
+2nd Momemnt = Variance
+
+3rd Moment = Skew = how lopsided a distribution is. A +ve skew would mean that data stretched towards right side.
+
+4th Moment = Kurtosis = how sharp the peak of the distribution is.
+
+--------
+
+**Covariance and Correlation** are used to see how 2 features are related to each other. Covariance of 0 means no relation at all, -ve value means inverse relation. Larger the value, larger the relation. Correlation on the other hand lies in the range of [-1, 1].
+
+-------
+
+**Sampling**
+
+It is the process used in statistical analysis in which a predetermined number of observations are taken from a larger population. The methodology used to sample from a larger population depends on the type of analysis being performed but may include simple random sampling or systematic sampling.
+
+Why do sampling? 
+1. the features that are in minority can get lost as noise in the entire data set.
+2. Processing the entire dataset can be difficult.
+
+-----
+
+
+

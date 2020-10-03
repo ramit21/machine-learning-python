@@ -24,7 +24,7 @@ Example: I have an unknown fruit that is yellow in color, 5.5 inches long, diame
 ### 7 Steps of Machine learning
 
 1. Gather data
-2. Data preperation
+2. Data preperation (sampling, fill missing values, drop columns, select relavant features - use PCA if need be, Convert categorial string data into numeric data, find and remove outliers)
 3. Choose a model
 4. Train
 5. Evaluation
@@ -32,14 +32,6 @@ Example: I have an unknown fruit that is yellow in color, 5.5 inches long, diame
 7. Prediction
 
 See ml.py example covering above steps in details.
-
-### Sampling 
-It is the process used in statistical analysis in which a predetermined number of observations are taken from a larger population. The methodology used to sample from a larger population depends on the type of analysis being performed but may include simple random sampling or systematic sampling.
-
-Why do sampling? 
-1. the features that are in minority can get lost as noise in the entire data set.
-2. Processing the entire dataset can be difficult.
-
 
 ### ML in Python
 
@@ -53,13 +45,14 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 **nltk** for natural language processing.
 
-**MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create graphs with more aesthetic appeal.
+**MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create matplotlib graphs with more aesthetic appeal, and also provides some more graph types. (See data folder for crash course on both)
 
 Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. Jupyter shortcuts:
 1. ctrl+Enter: runs the set of commands
 2. alt+Enter: runs the set of commands, and inserts a new box below for the next set of commands.
 
 ### References
+https://sundog-education.com/machine-learning/
 https://www.geeksforgeeks.org/machine-learning/
 https://www.dataquest.io/blog/machine-learning-python/  
 https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e  
