@@ -6,6 +6,8 @@ Type of Supervised Classification (RandomForestClassifier)/ Regression(RandomFor
 
 Multiple decision trees are created as part of training. The output of these decesion trees which is in majority (for the given input) decides which tree will be selected as the final decision.
 
+A decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and let them vote on the final outcome.
+
 Use cases: Remote sensing, acquiring images of earth surface, Object detection, XBox Kinect.
 
 Q. Why use Random forest? 
@@ -34,6 +36,11 @@ Ans.
 
 **Root Node**: Top most decision node.
 
+## Graphviz
+Install graphviz on the system to visualise decision trees.
+```
+brew install graphviz
+```
 
 ## References
 https://www.youtube.com/watch?v=eM4uJ6XGnSM
