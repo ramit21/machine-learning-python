@@ -6,7 +6,7 @@ Type of Supervised Classification (RandomForestClassifier)/ Regression(RandomFor
 
 Multiple decision trees are created as part of training. The output of these decesion trees which is in majority (for the given input) decides which tree will be selected as the final decision.
 
-A decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and let them vote on the final outcome.
+A decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and let them vote on the final outcome. This combining of results and then voting for final answer is an example of **ensemble learning**.
 
 Use cases: Remote sensing, acquiring images of earth surface, Object detection, XBox Kinect.
 
@@ -41,6 +41,20 @@ Install graphviz on the system to visualise decision trees.
 ```
 brew install graphviz
 ```
+
+## XGBoost
+
+eXtreme Gradient boosting trees: It is most effective classification/regression algorithm.
+
+Tree based ensable learning algirithm based on regularized boosting of attributes, which prevents overfitting. Parallel processing. Generally results in deeper, but optimized trees.
+
+Must be installed before use:
+```
+brew install xgboost
+```
+It is not just meant for Python, but also has interfaces for others like JVM, R etc, and also has its own CLI.
+
+The hyperparameters must be carefully passed to XGBoost, as these decide how XGBoost algorithm will work. 
 
 ## References
 https://www.youtube.com/watch?v=eM4uJ6XGnSM
