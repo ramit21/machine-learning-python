@@ -60,3 +60,18 @@ Why do sampling?
 
 -----
 
+### Data warehousing
+
+Few relavant terms:
+
+**Data Warehouse:** is a large central database that contains information from many sources. Queried via SQL or tools like Tableau. Feeding continous data, normalisation and scaling are some of the challenges with data warehouse.
+
+**Data Mart:** A data mart is a simple form of a data warehouse focused on a specific functional area or subject matter and contains copies of a subset of data in the data warehouse. For example, you can have specific data marts for each division in your organization or segment data marts based on regions. You can build data marts from a large data warehouse, operational stores, or a hybrid of the two. Data marts are simple to design, build, and administer. However, because data marts are focused on specific functional areas, querying across functional areas can become complex because of the data distribution. 
+
+**Data Lake:** can have unstructured data, whereas Data wahrehouse is highly structured data.
+
+**ETL vs ELT**: Extract Transform Load vs Extract Load Transform. ETL may not be possible with big data, as the transform step can become problematic. So ELT basically means, that you load all data and then apply transform on it. For ELT systems, you may use distributed DBs (like hive or nosql) instead of traditional Oracle DB. And then use the power of Hadoop to transform the data in-place.
+
+
+
+
