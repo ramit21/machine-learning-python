@@ -60,6 +60,15 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 **PCA**(Principal Component Analysis): If you have multiple features in your model, then visualising all of them becomes difficult. Human brain can understand upto 3 dimensions and when plotting graphs, 2-D is the best option. Hence use PCA to reduce the features before fitting into our model. PCA itself works on unsupervised ML principles when making sense of the features before reducing them.
 
+### Evaluating a model
+
+1. **Confusion Matrix**: Matrix that shows probailities of true positives, true negatives, false positives and false negatives. For eg. if you are running an experiment on vaccine testing, you would want a very very low score of false postivies.
+
+In a good model, the main diagonal (true positive/true negatives) should have most of the probabilities.
+
+||Actual Yes|Actual No|
+|Predicted Yes|True Positives|False Positives|
+|Predicted No|False Negatives|True Negatives|
 
 ### References
 https://sundog-education.com/machine-learning/
