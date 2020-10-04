@@ -73,5 +73,35 @@ Few relavant terms:
 **ETL vs ELT**: Extract Transform Load vs Extract Load Transform. ETL may not be possible with big data, as the transform step can become problematic. So ELT basically means, that you load all data and then apply transform on it. For ELT systems, you may use distributed DBs (like hive or nosql) instead of traditional Oracle DB. And then use the power of Hadoop to transform the data in-place.
 
 
+### Evaluating a model
 
+**RMSE** Root mean squared error gives the accuracy measurement.
 
+**Confusion Matrix**: Matrix that shows probailities of true positives, true negatives, false positives and false negatives. For eg. if you are running an experiment on vaccine testing, you would want a very very low score of false postivies; while in a fraud detection, you would want a very low score of false negatives.
+
+In a good model, the main diagonal (true positive/true negatives) should have most of the probabilities.
+```
+|              |Actual Yes   | Actual No  |
+|Predicted Yes |TP           | FP         |
+|Predicted No  |FN           | TN         |
+```
+(TP: True Positives, FN: False Negatives, FP: False Positives, TN: True Negatives)
+
+**Classifier metrics** (derived from confusion matrix):
+
+1. **Recall** = TP/ (TP+FN)
+
+aka Sensitivity/Completeness/possitivity rate. Good choice of metric when you care a lot about false negatives.
+
+2. **Precision** = TP/(TP+FP)
+aka correct Positives. Good choice of metric when you care a lot about false positives.  
+
+3. **Specificity** = TN/(TN+FP). aka True Negative Rate. 
+
+4. **F1 Score** = 2 X (Precision X Recall) / (Precision + Recall)
+
+Harmonic mean of precision and recall. Use it when you care about both precision and recall.
+
+5. **ROC Curve** = Receiver Operating Characteristic Curve = plot of true +ve rate (recall) vs false +ve rate at various threshold settings. The more the curve is bent towards upper left corner, the better. Ideal data would be a dot in the upper left corner.
+
+6. **AUC** = Area under the curve = area under the ROC curve.AUC of 0.5 means useless model, and 1 means perfect. Commonly used metric for comparing classifiers.
