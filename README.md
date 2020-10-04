@@ -68,7 +68,7 @@ In a good model, the main diagonal (true positive/true negatives) should have mo
 ```
 |              |Actual Yes     | Actual No      |
 |Predicted Yes |True Positives | False Positives|
-|Predicted No| False Negatives | True Negatives |
+|Predicted No  |False Negatives| True Negatives |
 ```
 
 
