@@ -65,10 +65,12 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 1. **Confusion Matrix**: Matrix that shows probailities of true positives, true negatives, false positives and false negatives. For eg. if you are running an experiment on vaccine testing, you would want a very very low score of false postivies.
 
 In a good model, the main diagonal (true positive/true negatives) should have most of the probabilities.
+```
+|              |Actual Yes     | Actual No      |
+|Predicted Yes |True Positives | False Positives|
+|Predicted No| False Negatives | True Negatives |
+```
 
-||Actual Yes|Actual No|
-|Predicted Yes|True Positives|False Positives|
-|Predicted No|False Negatives|True Negatives|
 
 ### References
 https://sundog-education.com/machine-learning/
