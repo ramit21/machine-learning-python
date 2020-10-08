@@ -35,7 +35,7 @@ Example: I have an unknown fruit that is yellow in color, 5.5 inches long, diame
 ### 7 Steps of Machine learning
 
 1. Gather data
-2. **Data preperation** (sampling, fill missing values, drop columns, select relavant features - use PCA to reduce feature dimensionality if the need be, scaling, convert categorial string data into numeric data, find and remove outliers)
+2. **Data preperation** (sampling, fill missing values, drop columns, select relavant features - use PCA if the need be, scaling, convert categorial string data into numeric data, find and remove outliers and erroneuous data)
 3. Choose a model
 4. Train
 5. Evaluation

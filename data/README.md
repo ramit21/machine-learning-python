@@ -55,10 +55,33 @@ Why do sampling?
 2. Processing the entire dataset can be difficult.
 
 -----
+**Some terms:**
 
 **K-fold Cross Validation**: Supervised learning technique, where you split data into 1 test set, and k-1 train sets. You apply your model on the k-1 train tests and the compare the result of each with the 1 test set.
 
------
+**Bias and Variance**: Bias is how far removed the mean of your predicted values is from the "real" answer. Variance is how scattered your predicted values are from the "real" answer. Low bias and low variance is preferred.
+
+High bias, low variance can lead to underfitting (think of liniar model)
+
+High variance, low bias can lead to overfitting (think of polynomial model)
+
+Another example is KNN, where as value of k increases, bias increases, variance decreases.
+
+A single decision tree is prone to overfitting - high variance. But a random forest decreases that variance.
+
+Error= pow(Bias,2) + Vairance. Final goal is to reduce overall error, and not chose lower bias over vairance and vice versa.
+
+**Unbalanced data:** When one type of data is present in larger proportion as compared to the other data. Particularly important for use cases like fraud detection, where the no. of fraud cases is very rare. Solution to the problem is:
+
+1. **Oversampling:** Duplicate samples from the minority class (SMOTE: Use KNN for better results than just creating naive copies).
+2. **Undersampling:** Reduce the samples from the majority class.
+
+**Binning:** Categorization technique where data is clubbed into ranges and then given ordinal no. Eg. binning the range of ages (1-10, 11-20, ..etc).
+
+**Transforming**: Apply some function to make data more usable for the model. Eg. aaply log on an exponential data.
+
+
+-------
 
 ### Data warehousing
 
