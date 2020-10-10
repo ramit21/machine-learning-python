@@ -48,7 +48,7 @@ Spark shell creates a "sc" object, which you can use in the code to create a con
 
 **RDD**: Resilient Distributed Dataset. It is the fundamental object used in spark to load and transform data. RDD transformations include map, flatmap, filter, distinct, sample, union, subtract etc. RDD actions include collect, count, countByValue, take, reduce, top etc. Many RDD methods accept lambda functions as a parameter. Spark does lazy evaluation, ie. it performs computations only when some action method is called.   
 
-Spark also provides dataframes, which are kind of next level of RDDs with more functionalities.
+Spark also provides dataframes, which are kind of next level of RDDs with more functionalities. While RDDs contain unstructured data, dataframes have defined schema. For most of the use cases, RDDs are good enough to be used, and should be the first priority.
 
 
 
