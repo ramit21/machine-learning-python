@@ -46,6 +46,10 @@ http://playground.tensorflow.org/
 
 **Early-Stopping**: Another approach to minimise overfitting is 'Early-stopping' (stop processing input data once performance starts dropping).
 
+**Learning Rate and batch size**: As part of gradient descent, we start at a random point and sample different solutions (weights) to minimise some cost function. How far apart these samples are - is known as learning rate. Small learning rate may take too long to find the optimal solution, and a large learning rate can lead to overshooting the optimal solution.
+
+Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. 
+
 ## TensorFlow
 Library developed by Google used to construct artificial neural networks. Tensorflow can work on any platform, even on a mobile phone. And can also be used to distribute work across GPUs.
 
