@@ -42,9 +42,10 @@ http://playground.tensorflow.org/
 
 **Optimization Functions**: Used to speed up gradient descent, by speeding up when on a slope, and slowing down when reaching a bottom. **Adam** is a popular choice of optimising function.
 
-**Dropout**: With thousands of weights to tune, overfitting is a problem. To minimise overfitting, ignore x% of neurons at each stage. This is known as 'dropout'. 
+**Regularisation** = prevent overfitting. With thousands of weights to tune, overfitting is a problem. Dropout and early stopping are 2 common techniques for regularisation:
 
-**Early-Stopping**: Another approach to minimise overfitting is 'Early-stopping' (stop processing input data once performance starts dropping).
+1. **Dropout** = Ignore x% of neurons at each stage.
+2. **Early-Stopping** = Stop processing input data once performance starts dropping.
 
 **Learning Rate and batch size**: As part of gradient descent, we start at a random point and sample different solutions (weights) to minimise some cost function. How far apart these samples are - is known as learning rate. Small learning rate may take too long to find the optimal solution, and a large learning rate can lead to overshooting the optimal solution.
 
