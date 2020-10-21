@@ -2,6 +2,10 @@
 
 Machine learning is mainly about understanding the data. One has to spend most of the time to understand and clean the data than applying machine learning algorithms on top of it.
 
+## EDA
+An important part of Data Science is getting to know your data, this is done by Exploratory Data Analysis. EDA gives us insights into data by the means of different statistical and visualisation techniques. Python libraries seaborn & matplotlib help in doing EDA. 
+
+
 ## Types of data
 
 1. **Numerical**: Discrete values. eg stock prices, age, time to do X etc.
