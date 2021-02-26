@@ -9,7 +9,7 @@ An important part of Data Science is getting to know your data, this is done by 
 ## Types of data
 
 1. **Numerical**: Discrete values. eg stock prices, age, time to do X etc.
-2. **Categorical**: eg. Gender, Yes/No (0/1). Numbers used here are only for categorisation, and dont have any mathermatical meaning.
+2. **Categorical**: eg. Gender, Yes/No (0/1). Numbers used here are only for categorisation, and dont have any mathematical meaning.
 3. **Ordinal**: Data in order. It's basically a categorical data that has mathermatical meaning as well. Eg. Rank of students, 1,2,3,4,5; or movie ratings etc.
 
 --------
@@ -28,7 +28,7 @@ An important part of Data Science is getting to know your data, this is done by 
 
 ------
 
-**Probability Distribution Function:** Probability of one data on a continious data is very very small. Hence we use probability distribution function for ranges of data.
+**Probability Distribution Function:** Probability of one data point on a continious data is very very small. Hence we use probability distribution function for ranges of data.
 
 **Probability Mass Function:** Probabilities of discrete data.
 
