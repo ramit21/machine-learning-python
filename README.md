@@ -1,5 +1,7 @@
 # machine-learning-python
 
+AI/ML is no longer an aspirational technology but a necessity. As per Gartner, 75% of all companies trying to implement ML will operationalize their uses cases by 2024.
+
 Various ML algoritmhs have been covered under the algorithms folder of this POC. These are Jupyter notebooks. Run Anaconda -> Jupyter -> select the .ipynb. 
 
 Jupyter shortcuts:
@@ -8,11 +10,11 @@ Jupyter shortcuts:
 
 ## Artificial Intelligence vs Machine Learning vs Deep Learning
 
-AI: Incorporating human intelligence to machines.
+AI: Incorporating human-like decision making intelligence to machines. Mainly used in 1950-80 era, and used decision trees and if-then-else analysis.
 
-ML: Subset of AI. Empowering computer systems with the ability to “learn”.
+ML: Subset of AI. Empowering computer systems with the ability to “learn”. Introduced in 1980, used algorithms and regression analysis.
 
-DL: Subset of ML. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
+DL: Subset of ML. Introduced in 2010. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
 
 ### ML Ecosystem:
 
