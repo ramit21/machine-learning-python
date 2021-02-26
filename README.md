@@ -16,15 +16,19 @@ ML: Subset of AI. Empowering computer systems with the ability to “learn”. I
 
 DL: Subset of ML. Introduced in 2010. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
 
+AI/ML vs Analytics: AI/ML is for predicting values and future, while analytics is only on present state data. Analytics is to make sense of data before feeding it to ML algorithms.
+
 ### ML Ecosystem:
 
 1. **Supervised Learning**: Task driven. classification/Regression. This approach works if we have a data set that includes the target values (the values we wish to predict). We try to learn a function that correctly predict the target values from the other features. We split the data into train and test data. Predicted values are then compared with test data to find error.
 
 eg. Weather forecast, Market forecast, Population growth prediction, Diagnostics, Image procesisng etc. 
 
-2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. Classification: 
-2.1. Clustering (eg. density estimation, shopping history categorisation, noise reduction) and 
-2.2. Association (eg. people who buy A, also buy B).
+2. **Unsupervised Learning**: means we have a dataset but there is no target to be predicted. Rather, machine learns by finding structures in the data. 2 types:
+
+2.1. Clustering (eg. density estimation, shopping history categorisation, noise reduction) 
+
+2.2. Association (eg. people who buy A, also buy B)
 
 3. **Reinforced Learning**: is a setting where we have a sequential decision problem. Making a decision now influences what decisions we can make in the future. eg. Realtime decisions, Robot navigation, Self driving cars, Game AI.
 
