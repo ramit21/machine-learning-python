@@ -73,7 +73,7 @@ Another example is KNN, where as value of k increases, bias increases, variance 
 
 A single decision tree is prone to overfitting - high variance. But a random forest decreases that variance.
 
-Error= pow(Bias,2) + Vairance. Final goal is to reduce overall error, and not chose lower bias over vairance and vice versa.
+Error= pow(Bias,2) + Vairance. Final goal is to reduce overall error, and not chose lower bias over vairance or vice versa.
 
 **Unbalanced data:** When one type of data is present in larger proportion as compared to the other data. Particularly important for use cases like fraud detection, where the no. of fraud cases is very rare. Solution to the problem is:
 
