@@ -64,7 +64,7 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 **MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create matplotlib graphs with more aesthetic appeal, and also provides some more graph types. (See data folder for crash course python notebooks on both)
 
-**PCA**(Principal Component Analysis): If you have multiple features in your model, then visualising all of them becomes difficult. Human brain can understand upto 3 dimensions and when plotting graphs, 2-D is the best option. Hence use PCA to reduce the features before fitting into our model. PCA itself works on unsupervised ML principles when making sense of the features before reducing them.
+
 
 ### References
 https://sundog-education.com/machine-learning/
