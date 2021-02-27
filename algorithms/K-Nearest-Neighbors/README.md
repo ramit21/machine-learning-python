@@ -4,7 +4,7 @@
 
 Supervised Algortihm used for both Classifiction and Regression, but mainly for Classification.
 
-Given N training vectors (features), kNN identifies k nearest neighbours of given vector C (whos class needs to be identified), regardless of labels. It then assigns the class that is in majority among the k neinghbours as the class of C. 
+Given some training vectors (features), kNN identifies k nearest neighbours of given vector C (whos class needs to be identified), regardless of labels. It then assigns the class that is in majority among the k neighbours as the class of C. 
 
 Euclidean Distance [ sqrt((pow(x1-x2),2), (pow(y1-y2),2))] is used to find the nearest distance from the target (x1,y1)
 
