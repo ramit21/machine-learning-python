@@ -18,7 +18,7 @@ An important part of Data Science is getting to know your data, this is done by 
 **A.** When we have outliers (eg. a billionare among the salary of middle class population) in the data that skews the mean towards one end.
 
 **Q.** When to use mode?
-**A.** For discrete data, and not for continuous data.
+**A.** For discrete data, and not for continuous data. Mode basically finds out frequency of all data points, and returns the one with maximum frequency.
 
 -------
 

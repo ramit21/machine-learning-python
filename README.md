@@ -52,7 +52,11 @@ See ml.py example covering above steps in details.
 
 ### ML in Python
 
-Python has an amazing ecosystem of libraries that make machine learning easy to get started with: Scikit-learn, Pandas, and Matplotlib libraries.
+Python has an amazing ecosystem of libraries that make machine learning easy to get started with: Scikit_learn (sklearn), Pandas, and Matplotlib etc. 
+
+**Pandas** give dataframes and series that can be used to slice and dice data.
+
+**NumPy** used to create multidimensional arrays. Can be easily converted to Panda dataframes and vice versa. In fact when panda dataframes are fed sklearn ml algorithms, the are internally translated into NumPy arrays before processing.
 
 **Pickle** library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use. For eg, see algorithms->Random forest -> Iris problem. You can then expose your trained model via REST calls which the client can invoke to predict values using the model.
 
