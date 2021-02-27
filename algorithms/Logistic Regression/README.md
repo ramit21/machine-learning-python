@@ -25,7 +25,7 @@ Linear regression is used when your response variable is continuous. For instanc
 
 Linear regression gives an equation which is of the form Y = mX + C, means equation with degree 1.
 
-However, logistic regression gives an equation which is of the form Y = eX + e-X
+However, logistic regression gives an equation which is of the form Y = e^X + e^-X
 
 4. **Coefficient interpretation**
 
