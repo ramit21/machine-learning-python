@@ -1,12 +1,12 @@
 # machine-learning-python
 
-## random forest (using decision trees)
+## Random Forest
 
 Type of Supervised Classification (RandomForestClassifier)/ Regression(RandomForestRegressor).
 
 Multiple decision trees are created as part of training. The output of these decesion trees which is in majority (for the given input) decides which tree will be selected as the final decision.
 
-A decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and let them vote on the final outcome. This combining of results and then voting for final answer is an example of **ensemble learning**.
+A simple decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and let them vote on the final outcome. This combining of results and then voting for final answer is an example of **ensemble learning**.
 
 Use cases: Remote sensing, acquiring images of earth surface, Object detection, XBox Kinect.
 
@@ -23,7 +23,7 @@ Ans.
 3. interpretability (yes, tree based models have feature importance, but it's only a proxy, weights in linear model are better)
 4. need less data to get good results
 5. have strong online learning implementations (Vowpal Wabbit), which is crucial to work with giant datasets with a lot of features (e.g. texts)
-6. Random Forest has more probability of overitting.
+6. Random Forest has more probability of overfitting.
 
 ## Decision Tree important terms
 **Entropy** : It's the measure of randomness or unpredictability in the dataset.
@@ -46,7 +46,7 @@ brew install graphviz
 
 eXtreme Gradient boosting trees: It is most effective classification/regression algorithm.
 
-Tree based ensable learning algirithm based on regularized boosting of attributes, which prevents overfitting. Parallel processing. Generally results in deeper, but optimized trees.
+Tree based ensemble learning algorithm based on regularized boosting of attributes, which prevents overfitting. Parallel processing. Generally results in deeper, but optimized trees.
 
 Must be installed before use:
 ```
