@@ -14,7 +14,7 @@ Use cases of NLP:
 3. Sentiment analysis
 4. Machine Translation (Eg. Google translate)
 5. Spell check
-6. Extracting informaon from a website
+6. Extracting information from a website
 7. Avertisement matching
 
 Aspects for NLP:
