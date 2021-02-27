@@ -58,6 +58,8 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 **NumPy** used to create multidimensional arrays. Can be easily converted to Panda dataframes and vice versa. In fact when panda dataframes are fed sklearn ml algorithms, the are internally translated into NumPy arrays before processing.
 
+**Scipy** used to process and evaluate data like finding mode, skew/kurtosis of probability distribution function etc.
+
 **Pickle** library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use. For eg, see algorithms->Random forest -> Iris problem. You can then expose your trained model via REST calls which the client can invoke to predict values using the model.
 
 **sklearn.metrics** provides confusion_matrix and classification_report to evaluate the model.
