@@ -2,7 +2,7 @@
 
 When the data set is huge, a ML algorithm running on a single machine may not be a efficient solution. Add to it the fact the numpy can handle data only upto a limit, and doesn't support scaling either. In comes spark to the rescue. Spark under the hood distributes processing among the cluster of machines, hence you can apply ML on large datasets. 
 
-## Installation (macos) and Execution
+## Installation (mac) and Execution
 
 1. > brew install apache-spark
 
