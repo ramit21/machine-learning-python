@@ -64,7 +64,7 @@ Note that neural networks can work when the input data is normalized. scikit_lea
 
 ## Keras
 
-Higher level API for deep learning on top of TensorFlow, available in Tensorflow 1.9+. It integrates well with scikit_learn as well. See the given examples in this project, for the same problem, the code when using Keras is way smaller when directly using TensorFlow.
+Higher level API for deep learning on top of TensorFlow, available in Tensorflow 1.9+. It integrates well with scikit_learn as well. See the given examples in this project, for the same problem, the code when using Keras is way smaller than using TensorFlow directly.
 
 ## CNN - Convolutional Neural Networks
 
