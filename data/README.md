@@ -66,7 +66,7 @@ Why do sampling?
 -----
 **Some terms:**
 
-**K-fold Cross Validation**: Supervised learning technique, where you split data into 1 test set, and k-1 train sets. You apply your model on the k-1 train tests and the compare the result of each with the 1 test set.
+**K-fold Cross Validation**: Supervised learning technique, where you split data into 1 test set, and k-1 train sets. You apply your model on the k-1 train tests and the compare the result of each with the 1 test set. This is done to avoid overfitting.
 
 **Bias and Variance**: Bias is how far removed the mean of your predicted values is from the "real" answer. Variance is how scattered your predicted values are from the "real" answer. Low bias and low variance is preferred.
 
