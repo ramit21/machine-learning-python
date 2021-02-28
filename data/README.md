@@ -34,7 +34,6 @@ Population variance = sum(x-mean)^2/N
 
 Sample Variance = sum(x-mean)^2/(N-1)
 
-
 ------
 
 **Probability Distribution Function:** Probability of one data point on a continious data is very very small. Hence we use probability distribution function for ranges of data.
@@ -85,8 +84,7 @@ A single decision tree is prone to overfitting - high variance. But a random for
 Error= pow(Bias,2) + Vairance. Final goal is to reduce overall error, and not chose lower bias over vairance or vice versa.
 
 **Unbalanced data:** When one type of data is present in larger proportion as compared to the other data. Particularly important for use cases like fraud detection, where the no. of fraud cases is very rare. Solution to the problem is:
-
-1. **Oversampling:** Duplicate samples from the minority class (SMOTE: Use KNN for better results than just creating naive copies).
+1. **Oversampling:** Duplicate samples from the minority class (SMOTE - Synthetic Minority over sampling TEchnique: Use KNN for better results than just creating naive copies).
 2. **Undersampling:** Reduce the samples from the majority class.
 
 **Binning:** Categorization technique where data is clubbed into ranges and then given ordinal no. Eg. binning the range of ages (1-10, 11-20, ..etc).
