@@ -46,7 +46,7 @@ brew install graphviz
 
 eXtreme Gradient boosting trees: It is most effective classification/regression algorithm.
 
-Tree based ensemble learning algorithm based on regularized boosting of attributes, which prevents overfitting. Parallel processing. Generally results in deeper, but optimized trees.
+Tree based ensemble learning algorithm based on regularized boosting of attributes (not bagging as with Random forest), which prevents overfitting. Parallel processing. Generally results in deeper, but optimized trees.
 
 Must be installed before use:
 ```
