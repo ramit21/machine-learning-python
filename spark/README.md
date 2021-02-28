@@ -39,10 +39,11 @@ Spark is a fast and general engine for large-scale data processing. It is a scal
 
 Components of Spark:
 
-1. Spark Streaming: Process data in real time.
-2. Spark SQL: Treat data as SQL database and issue SQL queries.
-3. GraphX: Treat data as a graph (think like a graph database)
-4. **MLLib**: For machine learning. All ML features supported like feature extraction, liniar/logistic regression, Support Vector Machines, PCA, K-Means, Decision Trees, basic statistics like correlation and variance, Recommendations using **Alternating Least Squares**. MLLib also provides special data types like Vector (dense and sparse), LabeledPoint, Rating.
+1. Spark Core.
+2. Spark Streaming: Process data in real time.
+3. Spark SQL: Treat data as SQL database and issue SQL queries.
+4. GraphX: Treat data as a graph (think like a graph database)
+5. **MLLib**: For machine learning. All ML features supported like feature extraction, liniar/logistic regression, Support Vector Machines, PCA, K-Means, Decision Trees, basic statistics like correlation and variance, Recommendations using **Alternating Least Squares**. MLLib also provides special data types like Vector (dense and sparse), LabeledPoint, Rating.
 
 Spark shell creates a "sc" object, which you can use in the code to create a context from underlying hive-db, JDBC, Cassandra, Elasticsearch, flat-files etc.
 
