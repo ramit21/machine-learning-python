@@ -73,9 +73,15 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 
 ### References
-https://sundog-education.com/machine-learning/
+More code samples at https://sundog-education.com/machine-learning/
+
 https://www.geeksforgeeks.org/machine-learning/
+
 https://www.dataquest.io/blog/machine-learning-python/  
+
 https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e  
-https://www.forbes.com/sites/bernardmarr/2016/12/08/what-is-the-difference-between-deep-learning-machine-learning-and-ai/#13473ee326cf
+
+https://www.forbes.com/sites/bernardmarr/2016/12/08/
+
+what-is-the-difference-between-deep-learning-machine-learning-and-ai/#13473ee326cf
 
