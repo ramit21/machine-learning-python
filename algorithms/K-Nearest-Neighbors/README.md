@@ -12,6 +12,8 @@ Always choose an odd value of k to avoid ambuigity among equal no. of neighbouri
 
 Optimal value of k can be found using the elbow method: plot the error rates against the chosen k values(for some range say 1-40), and choose the k after which the variation in the error stabilizes.
 
+sklearn provides StandardScaler which can be used to scale the features before applying KNN on them.
+
 Example use case: Reccomending products (similar products or frequently brought together) on eComm website, videos on Netflix etc.
 
 ------------
