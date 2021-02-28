@@ -6,7 +6,7 @@ Type of Supervised Classification (RandomForestClassifier)/ Regression(RandomFor
 
 Multiple decision trees are created as part of training. The output of these decesion trees which is in majority (for the given input) decides which tree will be selected as the final decision.
 
-A simple decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and let them vote on the final outcome. This combining of results and then voting for final answer is an example of **ensemble learning**.
+A simple decision tree works on Greedy algorithm, ie at every step it takes a decision that reduces entropy. But decision trees can lead to overfitting. That's where random forests help by creating multiple decision trees and then vote on the final outcome. This combining of results and then voting for final answer is an example of **ensemble learning**. The input data for each decision tree is randomly resampled, this is known as **bagging or aggregating**.
 
 Use cases: Remote sensing, acquiring images of earth surface, Object detection, XBox Kinect.
 
