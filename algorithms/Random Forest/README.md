@@ -52,7 +52,7 @@ Must be installed before use:
 ```
 brew install xgboost
 ```
-It is not just meant for Python, but also has interfaces for others like JVM, R etc, and also has its own CLI.
+It is not just meant for Python sklearn, but also has interfaces for others like JVM, R etc, and also has its own CLI.
 
 The hyperparameters must be carefully passed to XGBoost, as these decide how XGBoost algorithm will work. 
 
