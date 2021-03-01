@@ -75,7 +75,7 @@ To do CNN with Keras, see the images folder, and the given python notebook.
 
 ## RNN - Recurrent Neural Networks
 
-Used for time series data, ie when you want to predict future behavior based on past data. eg. Stock trades, self driving cars etc.
+Used for time series data, ie when you want to predict future behavior based on past data. eg. Stock trades, self driving cars etc. Memory of past data needs to be maintained.
 
 **Memory cell**: Output of one neuron is fed back to the same neuron as well. So over time, past behaviour of neuron influences present behaviour of the neuron.
 
