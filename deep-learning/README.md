@@ -30,15 +30,16 @@ http://playground.tensorflow.org/
 
 **Gradient-Descent** is a training algorithm for minimizing error over multiple steps. Basically we try different set of parameter values so that the error minimises before rising again. See Images folder for 'ball rolling down the hill' analogy. Beware of local minimas.
 
-**Autodiff** is a calculus trick for optimally finding the gradients in gradient descent.
+**Autodiff** is a calculus trick used internally by most of DL algorithms for optimally finding the gradients in gradient descent.
 
+**Backpropogation**: algorithm used to train MLP's weights by back propagating errors to previous layers.Previous layers will then tweak the weights to reduce the error.
+
+**Activation Functions (aka rectifiers)**: Activation functions help a neural network to filter out useful data from not so usefule data points. Activation function is applied to one layer of neurons before giving the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model. Some commonly used activation functions are Softmax, Sigmoid, ReLu etc.
+
+Note that Step functions don't work with gradient descent, as step functions don't have any gradient. Alternative approach is to use activation functions like **ReLU** (Rectified Liniar Unit).
 **Softmax** is a function used for classification using probability, for several given input values.
 
 **Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems.
-
-**Backpropogation**: algorithm used to traing MLP's weights.
-
-**Activation Functions (aka rectifiers)**: Step functions don't work with gradient descent, as step functions don't have any gradient. Alternative approach is to use activation functions like **ReLU** (Rectified Liniar Unit).
 
 **Optimization Functions**: Used to speed up gradient descent, by speeding up when on a slope, and slowing down when reaching a bottom. **Adam** is a popular choice of optimising function.
 
@@ -91,3 +92,9 @@ Just like CNN, RNN are also resource heavy, and you need good machines to run th
 ## Transfer Learning
 
 Predefined models are available for general DL use cases. For eg., the given TransferLearning python notebook shows how using ResNet50 model, we can identify objects in a given image. Give any unseen image to the model (like fighterjet.jpg in the images folder) and see the model identify objects in the image.
+
+## References
+
+Play around with below link to see how neural network works to solve a problem:
+
+https://playground.tensorflow.org/
