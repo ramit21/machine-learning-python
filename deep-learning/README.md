@@ -21,36 +21,41 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 **MLP**: Deep Neural Network is basically Multi-layer perceptrons (MLP) with hidden layers. We reduce the no. of neurons as we move from initial layer to the next layers. 
 
-Use the below url to play around newural networks.
-```
-http://playground.tensorflow.org/
-```
+**Transfer Learning**: Predefined models are available for general DL use cases. For eg., the given TransferLearning python notebook shows how using ResNet50 model, we can identify objects in a given image. Give any unseen image to the model (like fighterjet.jpg in the images folder) and see the model identify objects in the image.
 
-## Important terms for deep learning
+## Tuning DL Algortihms
 
 **Gradient-Descent** is a training algorithm for minimizing error over multiple steps. Basically we try different set of parameter values so that the error minimises before rising again. See Images folder for 'ball rolling down the hill' analogy. Beware of local minimas.
 
 **Autodiff** is a calculus trick used internally by most of DL algorithms for optimally finding the gradients in gradient descent.
 
-**Backpropogation**: algorithm used to train MLP's weights by back propagating errors to previous layers.Previous layers will then tweak the weights to reduce the error.
+**Backpropogation**: algorithm used to train MLP's weights by back propagating errors to previous layers. Previous layers will then tweak the weights to reduce the error.
 
-**Activation Functions (aka rectifiers)**: Activation functions help a neural network to filter out useful data from not so usefule data points. Activation function is applied to one layer of neurons before giving the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model. Some commonly used activation functions are Softmax, Sigmoid, ReLu etc.
+**Activation Functions (aka rectifiers)**: Takes inputs from all neurons from a layer, filters out useful data points, and gives the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model.
 
-Note that Step functions don't work with gradient descent, as step functions don't have any gradient. Alternative approach is to use activation functions like **ReLU** (Rectified Liniar Unit).
-**Softmax** is a function used for classification using probability, for several given input values.
+1. **Liniar**: o/p is same as the recieved i/p. Practically, no point in using it.
+2. **Binary Step**: It is on or off. But vertical slopes dont work well with calculus. Derivatives are needed for backpropagation. Hence we prefer other options like ReLU.
+2. **Softmax** is a function used for classification using probability, for several given input values. Can produce only 1 label as ouput, hence it is mainly used in the final layer of neural networks.
+3. **Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems. It changes slowly for high/low values, this is known as "Vanishing Gradient" problem. Solution is to use 'Tanh' instead of signmoid. RNNs do well with Tanh.
+4. **ReLU**: Rectified Liniar Unit. "Dying ReLU problem": when inputs <=0, we have a liniar function. Solution is to use **Leaky ReLU** that introduces a negative slope below 0. Next improved version is **Paramtetric ReLu**, where the slope in negative part is learned via backpropagation.
 
-**Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems.
+
+## Hyperparameters for tuning DL algorithm
+
+**Learning Rate**: As part of gradient descent, we start at a random point and sample different solutions (weights) to minimise some cost function. How far apart these samples are - is known as learning rate. Small learning rate may take too long to find the optimal solution, and a large learning rate can lead to overshooting the optimal solution.
+
+**Batch size**: Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. Hence batch size should be kept small.
+
+**Epoch**: No. of iterations algorithm is run for. At each iteration, algorithm tries to reduce the specified **loss/cost function** (eg. cross_entropy).
 
 **Optimization Functions**: Used to speed up gradient descent, by speeding up when on a slope, and slowing down when reaching a bottom. **Adam** is a popular choice of optimising function.
 
-**Regularisation** = prevent overfitting. With thousands of weights to tune, overfitting is a problem. Dropout and early stopping are 2 common techniques for regularisation:
+## Regularisation
+
+To prevent overfitting. With thousands of weights to tune, overfitting is a problem. Dropout and early stopping are 2 common techniques for regularisation:
 
 1. **Dropout** = Ignore x% of neurons at each stage.
 2. **Early-Stopping** = Stop processing input data once performance starts dropping.
-
-**Learning Rate and batch size**: As part of gradient descent, we start at a random point and sample different solutions (weights) to minimise some cost function. How far apart these samples are - is known as learning rate. Small learning rate may take too long to find the optimal solution, and a large learning rate can lead to overshooting the optimal solution.
-
-Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. 
 
 ## TensorFlow
 Library developed by Google used to construct artificial neural networks. Tensorflow can work on any platform, even on a mobile phone. And can also be used to distribute work across GPUs.
@@ -89,9 +94,7 @@ For RNN topologies, see the images folder.
 
 Just like CNN, RNN are also resource heavy, and you need good machines to run them.
 
-## Transfer Learning
 
-Predefined models are available for general DL use cases. For eg., the given TransferLearning python notebook shows how using ResNet50 model, we can identify objects in a given image. Give any unseen image to the model (like fighterjet.jpg in the images folder) and see the model identify objects in the image.
 
 ## References
 
