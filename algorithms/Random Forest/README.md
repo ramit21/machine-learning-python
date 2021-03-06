@@ -56,6 +56,10 @@ It is not just meant for Python sklearn, but also has interfaces for others like
 
 The hyperparameters must be carefully passed to XGBoost, as these decide how XGBoost algorithm will work. 
 
+## Ensamble methods
+
+Boosting yeilds higher accuracy, while bagging prevents overfitting and is easier to parallelize.
+
 ## References
 https://www.youtube.com/watch?v=eM4uJ6XGnSM
 
