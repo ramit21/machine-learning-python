@@ -38,7 +38,12 @@ Sample Variance = sum(x-mean)^2/(N-1)
 
 **Probability Distribution Function:** Probability of one data point on a continious data is very very small. Hence we use probability distribution function for ranges of data.
 
-**Probability Mass Function:** Probabilities of discrete data.
+**Probability Mass Function:** Probabilities of discrete data. eg. Poisson Distribution (plot success and failures under different parameters). Another example is Binomial distribution, which plots yes/no probabilities like flipping a coin over multiple trials. Bernoulli distribution is a special case of binomial with a single trial (n=1)
+
+**Probability Density Function:** A function that represents continuous probability distribution.
+
+Normal distribution is an example of probability density function. It's a bell curve centered around the mean.Values beyond 1 std deviation are considered outliers.
+
 
 ------
 
