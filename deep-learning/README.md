@@ -35,9 +35,9 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 1. **Liniar**: o/p is same as the recieved i/p. Practically, no point in using it.
 2. **Binary Step**: It is on or off. But vertical slopes dont work well with calculus. Derivatives are needed for backpropagation. Hence we prefer other options like ReLU.
-2. **Softmax** is a function used for classification using probability, for several given input values. Can produce only 1 label as ouput, hence it is mainly used in the final layer of neural networks.
-3. **Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems. It changes slowly for high/low values, this is known as "Vanishing Gradient" problem. Solution is to use 'Tanh' instead of signmoid. RNNs do well with Tanh.
-4. **ReLU**: Rectified Liniar Unit. "Dying ReLU problem": when inputs <=0, we have a liniar function. Solution is to use **Leaky ReLU** that introduces a negative slope below 0. Next improved version is **Paramtetric ReLu**, where the slope in negative part is learned via backpropagation.
+3. **Softmax** is a function used for classification using probability, for several given input values. Can produce only 1 label as ouput, hence it is mainly used in the final layer of neural networks.
+4. **Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems. It changes slowly for high/low values, this is known as "Vanishing Gradient" problem. Solution is to use 'Tanh' instead of signmoid. RNNs do well with Tanh.
+5. **ReLU**: Rectified Liniar Unit. "Dying ReLU problem": when inputs <=0, we have a liniar function. Solution is to use **Leaky ReLU** that introduces a negative slope below 0. Next improved version is **Paramtetric ReLu**, where the slope in negative part is learned via backpropagation.
 
 
 ## Hyperparameters for tuning DL algorithm
