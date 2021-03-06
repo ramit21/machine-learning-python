@@ -44,7 +44,7 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 **Learning Rate**: As part of gradient descent, we start at a random point and sample different solutions (weights) to minimise some cost function. How far apart these samples are - is known as learning rate. Small learning rate may take too long to find the optimal solution, and a large learning rate can lead to overshooting the optimal solution.
 
-**Batch size**: Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. Hence batch size should be kept small.
+**Batch size**: Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. Hence batch size should be kept small. But with too small batch size, algo will take time to process.
 
 **Epoch**: No. of iterations algorithm is run for. At each iteration, algorithm tries to reduce the specified **loss/cost function** (eg. cross_entropy).
 
