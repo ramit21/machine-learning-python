@@ -17,7 +17,7 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 **LTU**: Linear Threshold Unit adds weights to output of 1 neuron going to the next set of neurons. Outputs by the next set of neurons are given by a step function that multiplies the weights and corresponding outputs, and sum them all, and outputs 1 if sum > 0. (See Image) 
 
-**Perceptron**: A Layer of LTUs. A perceptron works by rewarding (increasing) weights that lead to correct behaviour during training.  
+**Perceptron**: A Layer of LTUs. A perceptron works by rewarding (increasing) weights that lead to correct behaviour during training. A preceptron is equal to applying activation function on (bias + sum of dot products for weights and Xi). 
 
 **MLP**: Deep Neural Network is basically Multi-layer perceptrons (MLP) with hidden layers. We reduce the no. of neurons as we move from initial layer to the next layers. 
 
@@ -31,22 +31,22 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 **Backpropogation**: algorithm used to train MLP's weights by back propagating errors to previous layers. Previous layers will then tweak the weights to reduce the error.
 
-**Activation Functions (aka rectifiers)**: Takes inputs from all neurons from a layer, filters out useful data points, and gives the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model.
+**Activation Functions (aka rectifiers)**: Takes inputs from all neurons from a layer, filters out useful data points, and gives the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model. Activation functions are mainly used to introduce non-linearities into the network.
 
 1. **Liniar**: o/p is same as the recieved i/p. Practically, no point in using it.
 2. **Binary Step**: It is on or off. But vertical slopes dont work well with calculus. Derivatives are needed for backpropagation. Hence we prefer other options like ReLU.
 3. **Softmax** is a function used for classification using probability, for several given input values. Can produce only 1 label as ouput, hence it is mainly used in the final layer of neural networks.
-4. **Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems. It changes slowly for high/low values, this is known as "Vanishing Gradient" problem. Solution is to use 'Tanh' instead of signmoid. RNNs do well with Tanh.
-5. **ReLU**: Rectified Liniar Unit. "Dying ReLU problem": when inputs <=0, we have a liniar function. Solution is to use **Leaky ReLU** that introduces a negative slope below 0. Next improved version is **Paramtetric ReLu**, where the slope in negative part is learned via backpropagation.
+4. **Sigmoid**: While softmax is used for multi-class classification problems, sigmoid function is used for binay classification problems. It changes slowly for high/low values, this is known as "Vanishing Gradient" problem. Solution is to use 'Tanh' instead of signmoid. RNNs do well with Tanh. o/p of singmoid is probability in range of [0,1], while for tanh its [-1,1].
+5. **ReLU**: Rectified Liniar Unit. "Dying ReLU problem": when inputs <=0, we have a liniar function. Solution is to use **Leaky ReLU** that introduces a negative slope below 0. Next improved version is **Paramtetric ReLu**, where the slope in negative part is also learned via backpropagation.
 
 
 ## Hyperparameters for tuning DL algorithm
 
 **Learning Rate**: As part of gradient descent, we start at a random point and sample different solutions (weights) to minimise some cost function. How far apart these samples are - is known as learning rate. Small learning rate may take too long to find the optimal solution, and a large learning rate can lead to overshooting the optimal solution.
 
-**Batch size**: Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. Hence batch size should be kept small. Just as with learning rate, small batch size may take too long to find the optimal solution, and a large batch size can lead to overshooting the optimal solution.
+**Batch size**: Applying differential at every point on loss function is not possible. One way is SGD (Stochatic Gradient descent) that picks some points along the curve, and apply differential. Even better approach is applying differentials on batches. A Batch-size is how many training samples used within each epoch. Small batch-size can wiggle its way out of local minima, while large batch sizes can converge on a wrong solution at random. Hence batch size should be kept small. Just as with learning rate, small batch size may take too long to find the optimal solution, and a large batch size can lead to overshooting the optimal solution.
 
-**Epoch**: No. of iterations algorithm is run for. At each iteration, algorithm tries to reduce the specified **loss/cost function** (eg. cross_entropy).
+**Epoch**: No. of iterations algorithm is run for. At each iteration, algorithm tries to reduce the specified **loss/cost function** by backpropagating and adjusting the weights (eg. of loss function = cross_entropy with probability output in range [0,1], and mean square error loss for regression models).
 
 **Optimization Functions**: Used to speed up gradient descent, by speeding up when on a slope, and slowing down when reaching a bottom. **Adam** is a popular choice of optimising function.
 
