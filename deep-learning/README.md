@@ -101,3 +101,6 @@ Just like CNN, RNN are also resource heavy, and you need good machines to run th
 Play around with below link to see how neural network works to solve a problem:
 
 https://playground.tensorflow.org/
+
+Regression with Keras:
+https://machinelearningmastery.com/regression-tutorial-keras-deep-learning-library-python/
