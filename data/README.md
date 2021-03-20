@@ -16,13 +16,16 @@ An important part of Data Science is getting to know your data, this is done by 
 Few Questions:
 
 **Q.** When is median prefered over mean?
+
 **A.** When we have outliers (eg. a billionare among the salary of middle class population) in the data that skews the mean towards one end.
 
 **Q.** When to use mode?
+
 **A.** For discrete data, and not for continuous data. Mode basically finds out frequency of all data points, and returns the one with maximum frequency.
 
 **Q.** How to fill missing data in your data set?
-**A.** This is called as 'imputing' missing data. You can use mean of that feature. In case of outliers, either drop them, or use median in place of mean. But this won't cover co-relation of the column with other columns (if there exists one). So consider using Ml itself to prepare data for ML! Consider using liniar regression or K means clustering. But his won't help with categorical data. For the latter, use DL. 
+
+**A.** This is called as 'imputing' missing data. You can use mean of that feature. In case of outliers, either drop them, or use median in place of mean. But this won't cover co-relation of the column with other columns (if there exists one). So consider using Ml itself to prepare data for ML! Consider using liniar regression or K means clustering. But this won't help with categorical data. For the latter, use DL. 
 
 -------
 
