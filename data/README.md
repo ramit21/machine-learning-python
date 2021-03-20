@@ -31,11 +31,11 @@ Few Questions:
 
 **Standard Deviation**: Sigma: Square root of Vairance. It signifies how much of an outlier a data point is from the mean. Data points that lie more than one standard deviation from the mean can be considered unusual.
 
-**Variance**: Sigma square: Average of squared differences from the mean. It measures how much spread the data has. The square here is used to increase the effect of values away from mean, and also to nullify negative vaalues of (x-mean).
+**Variance**: Sigma square: Average of squared differences from the mean. It measures how much spread the data has. The square here is used to increase the effect of values away from mean, and also to nullify negative values of (x - mean).
 
-Population variance = sum(x-mean)^2/N
+Population variance = sum(x - mean)^2/N
 
-Sample Variance = sum(x-mean)^2/(N-1)
+Sample Variance = sum(x - mean)^2/(N-1)
 
 ------
 
