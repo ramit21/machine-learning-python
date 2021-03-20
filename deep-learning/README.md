@@ -31,7 +31,7 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 **Backpropogation**: algorithm used to train MLP's weights by back propagating errors to previous layers. Previous layers will then tweak the weights to reduce the error.
 
-**Activation Functions (aka rectifiers)**: Takes inputs from all neurons from a layer, filters out useful data points, and gives the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model. Activation functions are mainly used to introduce non-linearities into the network.
+**Activation Functions (aka rectifiers)**: Activation functions are mainly used to introduce non-linearities into the network, as data is mostly non-liniar. Activation functions take inputs from all neurons from a layer, filters out useful data points, and gives the output to the next layer. This is known as forward propagation. A neural network without an activation function is essentially just a linear regression model. 
 
 1. **Liniar**: o/p is same as the recieved i/p. Practically, no point in using it.
 2. **Binary Step**: It is on or off. But vertical slopes dont work well with calculus. Derivatives are needed for backpropagation. Hence we prefer other options like ReLU.
