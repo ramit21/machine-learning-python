@@ -16,7 +16,7 @@ Optimal value of k can be found using the elbow method: plot the error rates aga
 
 sklearn provides StandardScaler which can be used to scale the features before applying KNN on them.
 
-Example use case: Reccomending products (similar products or frequently brought together) on eComm website, videos on Netflix etc.
+Example use case: Recommending products (similar products or frequently brought together) on eComm website, videos on Netflix etc.
 
 ------------
 See the example on how we plot the error rates for different values of k (elbow method) and choose the optimal value of k for our model.
