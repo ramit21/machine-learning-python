@@ -45,4 +45,4 @@ Consider linear regression on categorical {0, 1} outcomes to see why this is a p
 
 -------------
 
-Notice in the Titanic example, how we create heatmap, and drop the column with missing values. Also, how using box blot (which shows mean, and the box containing most of the values, with bars indicating the outliers) to find the mean age for the various pclasses, and fill the missing values. Also see how we convert the categorial striing values of Sex and Embarked into numbers so that these can be used with ML algorithms, and drop Name and Ticket as strings cannot be used in ML algos.
+Notice in the Titanic example, how we create heatmap, and drop the column with missing values. Also, how using box blot (which shows mean, and the box containing most of the values, with bars indicating the outliers) to find the mean age for the various pclasses, and fill the missing values. Also see how we convert the categorial string values of Sex and Embarked into numbers so that these can be used with ML algorithms, and drop Name and Ticket as strings cannot be used in ML algos.
