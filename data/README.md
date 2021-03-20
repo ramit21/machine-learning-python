@@ -12,6 +12,7 @@ An important part of Data Science is getting to know your data, this is done by 
 2. **Categorical**: eg. Gender, Yes/No (0/1). Numbers used here are only for categorisation, and dont have any mathematical meaning.
 3. **Ordinal**: Data in order. It's basically a categorical data that has mathermatical meaning as well. Eg. Rank of students, 1,2,3,4,5; or movie ratings etc.
 
+Categorical data can be converted into numerical using label/one-hot encoding. Numerical data can be converted into categorial using binning.
 --------
 Few Questions:
 
