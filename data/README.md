@@ -98,7 +98,7 @@ Error= pow(Bias,2) + Vairance. Final goal is to reduce overall error, and not ch
 
 **Binning:** Categorization technique where data is clubbed into ranges and then given ordinal no. Eg. binning the range of ages (1-10, 11-20, ..etc).
 
-**Transforming**: Apply some function to make data more usable for the model. Eg. aaply log on an exponential data.
+**Transforming**: Apply some function to make data more usable for the model. Eg. apply log on an exponential data.
 
 
 -------
