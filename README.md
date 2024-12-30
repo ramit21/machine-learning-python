@@ -10,13 +10,15 @@ Jupyter shortcuts:
 
 ## Artificial Intelligence vs Machine Learning vs Deep Learning
 
-AI: Incorporating human-like decision making intelligence to machines. Mainly used in 1950-80 era, and used decision trees and if-then-else analysis.
+AI: Incorporating human-like decision making intelligence to machines. Mainly used in 1950-80 era, and used decision trees and if-then-else analysis. 
 
 ML: Subset of AI. Empowering computer systems with the ability to “learn”. Introduced in 1980, used algorithms and regression analysis (predicting future).
 
 DL: Subset of ML. Introduced in 2010. DL algorithms are roughly inspired by the information processing patterns found in the human brain. Large quantity of data is continuously fed to Neural networks which then tries to learn from the data and compare with its understanding of data fed so far.
 
 AI/ML vs Analytics: AI/ML is for predicting values and future, while analytics is only on present state data. Analytics is to make sense of data before feeding it to ML algorithms.
+
+Eg. of AI that is not ML: Heuristic Algorithms
 
 ### ML Ecosystem:
 
