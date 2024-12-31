@@ -120,7 +120,7 @@ Few relavant terms:
 
 **RMSE** Root mean squared error gives the accuracy measurement.
 
-**Confusion Matrix**: Matrix that shows probailities of true positives, true negatives, false positives and false negatives. For eg. if you are running an experiment on vaccine testing, you would want a very very low score of false postivies; while in a fraud detection, you would want a very low score of false negatives.
+**Confusion Matrix**: Matrix that shows probabilities of true positives, true negatives, false positives and false negatives. For eg. if you are running an experiment on vaccine testing, you would want a very low score of false positives; while in a fraud detection, you would want a very low score of false negatives.
 
 In a good model, the main diagonal (true positive/true negatives) should have most of the probabilities.
 ```
