@@ -43,11 +43,11 @@ Example: I have an unknown fruit that is yellow in color, 5.5 inches long, diame
 ### 7 Steps of Machine learning
 
 1. Gather data
-2. **Data preperation** (sampling, fill missing values, drop columns, select relavant features - use PCA if the need be, scaling, convert categorial string data into numeric data, find and remove outliers and erroneuous data)
+2. **Data preperation** (sampling, fill missing values, drop columns, select relavant features - use PCA if the need be, scaling, convert categorial string data into numeric data, find and remove outliers and erroneous data)
 3. Choose a model
 4. Train
 5. Evaluation
-6. Paramater tuning
+6. Parameter tuning
 7. Prediction
 
 See ml.py example covering above steps in details.
@@ -62,7 +62,8 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 
 **Scipy** used to process and evaluate data like finding mode, skew/kurtosis of probability distribution function etc.
 
-**Pickle** library is used to serialize a tried and tested model (which can then be saved as a binary file) for later use. For eg, see algorithms->Random forest -> Iris problem. You can then expose your trained model via REST calls which the client can invoke to predict values using the model.
+**Pickle** library is used to serialize a trained model that then be saved as a binary file. You can then expose your trained model via REST calls which the client can invoke to predict values using the model.
+For eg, see algorithms->Random forest -> Iris problem. 
 
 **sklearn.metrics** provides confusion_matrix and classification_report to evaluate the model.
 
@@ -71,7 +72,6 @@ Python has an amazing ecosystem of libraries that make machine learning easy to 
 **nltk** for natural language processing.
 
 **MatplotLib and Seaborn** are used for plotting various graphs for analyzing the data. Seaborn is basically a wrapper on top of Matplotlib that helps create matplotlib graphs with more aesthetic appeal, and also provides some more graph types. (See data folder for crash course python notebooks on both)
-
 
 
 ### References
