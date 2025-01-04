@@ -134,7 +134,7 @@ In a good model, the main diagonal (true positive/true negatives) should have mo
 
 1. **Recall** = TP/ (TP+FN)
 
-aka Sensitivity/Completeness/possitivity rate. Good choice of metric when you care a lot about false negatives.
+aka Sensitivity/Completeness/positivity rate. Good choice of metric when you care a lot about false negatives.
 
 2. **Precision** = TP/(TP+FP)
 aka correct Positives. Good choice of metric when you care a lot about false positives.  
@@ -147,4 +147,4 @@ Harmonic mean of precision and recall. Use it when you care about both precision
 
 5. **ROC Curve** = Receiver Operating Characteristic Curve = plot of true +ve rate (recall) vs false +ve rate at various threshold settings. The more the curve is bent towards upper left corner, the better. Ideal data would be a dot in the upper left corner.
 
-6. **AUC** = Area under the curve = area under the ROC curve.AUC of 0.5 means useless model, and 1 means perfect. Commonly used metric for comparing classifiers.
+6. **AUC** = Area under the curve = area under the ROC curve. AUC of 0.5 means useless model, and 1 means perfect. Commonly used metric for comparing classifiers.

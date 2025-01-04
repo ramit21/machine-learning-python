@@ -74,7 +74,7 @@ diff -b -w -u -d -r1.91.2.7 -r1.91.2.8
 +The C<#> character starts a comment, which continues until end of line.
 +
 +Whitespace in the files is not significant, but please note that starting a
-+line with whitespace is deprecated, as we reserve its use for multi-line rule
++line with whitespace is deprecated, as we examples its use for multi-line rule
 +definitions, at some point in the future.
  
  Paths can use C<~> to refer to the user's home directory.
