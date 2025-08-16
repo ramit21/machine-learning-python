@@ -48,6 +48,14 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 **Epoch**: No. of iterations algorithm is run for. At each iteration, algorithm tries to reduce the specified **loss/cost function** by backpropagating and adjusting the weights (eg. of loss function = cross_entropy with probability output in range [0,1], and mean square error loss for regression models).
 
+i.e.
+```
+Batch size:	Number of samples processed before updating weights once
+Iteration:	One update step (i.e., one batch processed)
+Epoch:	One full cycle through all batches in the training set
+```
+So if you have 10,000 samples and a batch size of 100, then 1 epoch = 100 iterations.
+
 **Optimization Functions**: Used to speed up gradient descent, by speeding up when on a slope, and slowing down when reaching a bottom. **Adam** is a popular choice of optimising function.
 
 ## Regularisation
