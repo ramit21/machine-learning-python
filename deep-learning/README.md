@@ -25,7 +25,12 @@ Neurons work in a set of parallel pipes, and that's exactly how most of graphics
 
 ## Tuning DL Algortihms
 
-**Gradient-Descent** is a training algorithm for minimizing error over multiple steps. Basically we try different set of parameter values so that the error minimises before rising again. See Images folder for 'ball rolling down the hill' analogy. Beware of local minimas.
+In deep learning, training a model means minimizing a loss function—a mathematical expression of how far off the model's predictions are from the actual values. A local minimum is a point in the loss landscape where the loss is lower than in its immediate surroundings, but not necessarily the lowest possible (which would be the global minimum).
+
+**Gradient-Descent** Neural networks use gradient descent (or variants like Adam) to adjust weights and reduce loss, ie. minimizing error over multiple steps. Basically we try different set of parameter values so that the error minimises before rising again. See Images folder for 'ball rolling down the hill' analogy. Beware of local minimas.
+
+Q. Are Local Minima Always Bad?
+A. Not necessarily. In high-dimensional spaces, many local minima are good enough—they generalize well and yield low validation loss. The real enemy are sharp minima (which overfit) or plateaus (which stalls learning).
 
 **Autodiff** is a calculus trick used internally by most of DL algorithms for optimally finding the gradients in gradient descent.
 
