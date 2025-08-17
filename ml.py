@@ -56,7 +56,7 @@ print(games[games["average_rating"] > 0].iloc[0])
 # Remove any rows without user reviews.
 games = games[games["users_rated"] > 0]
 # Remove any rows with missing values. As most ML algos don't work on missing values
-games = games.dropna(axis=0)
+games = games.dropna(axis=0) #axis= 0 means rows. Here we delete rows, that have some column values as NaN.
 
 #You can furhter cluster your data for analysing your data further (k-means clustering has been used below)
 # Initialize the model with 2 parameters -- number of clusters and random state.
